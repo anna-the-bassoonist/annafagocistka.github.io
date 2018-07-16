@@ -1,0 +1,29 @@
+.kwadrat {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.pierwszy {
+    background-color: red;
+    transition: width 2s ease-in;
+}
+.pierwszy:hover {
+    width: 300px;
+}
+
+.drugi {
+    background-color: blue;
+    transition: height 3s linear;
+}
+.drugi:hover {
+    height: 300px;
+}
+.trzeci {
+    background-color: green;
+    transition: width 2s linear, height 3s linear;
+}
+
+.trzeci:hover {
+    height: 300px;
+    width: 300px;
+}
