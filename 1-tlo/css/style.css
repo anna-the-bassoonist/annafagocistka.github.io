@@ -2,7 +2,9 @@ body {
     background-color: lime;
 background-image: url("../img/logoss2.png");
     background-repeat: no-repeat;
-/*    background-position: 30px 50px*/
+  background-position: 30px 50px;
     background-size: cover;
+    
+/*    mozna tak napisać: background: lime url("../img/logoss2.png") center bottom no-repeat scroll;*/
 }
 
